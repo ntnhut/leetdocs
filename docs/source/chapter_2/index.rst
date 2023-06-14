@@ -1,8 +1,13 @@
-Chapter 2
 =========
+Array
+=========
+
+In this chapter
+
 
 .. toctree::
     :glob:
     :maxdepth: 1
+    :titlesonly:
 
-    2_problem_2
+    *_*

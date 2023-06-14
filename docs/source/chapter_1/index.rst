@@ -1,8 +1,12 @@
-Chapter 1
 =========
+Strings
+=========
+
+In this chapter
 
 .. toctree::
     :glob:
     :maxdepth: 1
+    :titlesonly:
 
-    1_problem_1
+    *_*
