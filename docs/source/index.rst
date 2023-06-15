@@ -9,4 +9,5 @@ Contents
    intro
    chapter_1/index
    chapter_2/index
+   chapter_3/index
 

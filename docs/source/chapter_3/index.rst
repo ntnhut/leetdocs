@@ -1,8 +1,9 @@
 =========
-Strings
+Sorting
 =========
 
 In this chapter
+
 
 .. toctree::
     :glob:
