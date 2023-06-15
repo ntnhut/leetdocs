@@ -1,8 +1,0 @@
-============
-Introduction
-============
-
-.. _installation:
-
-Leetcode
-========

@@ -7,7 +7,13 @@ Contents
    :name: masterdoc
 
    intro
-   chapter_1/index
-   chapter_2/index
-   chapter_3/index
+   Array/index
+   Linked_List/index
+   Hash_Table/index
+   Sorting/index
+   Dynamic_Programming/index
+   String/index
+   Two_Pointers/index
+   Mathematics/index
+   conclude
 

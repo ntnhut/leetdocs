@@ -1,6 +1,6 @@
-=========
-Sorting
-=========
+==========
+Hash Table
+==========
 
 In this chapter
 
