@@ -1,6 +1,6 @@
 # Detect Capital 
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/detect-capital/)
 We define the usage of capitals in a word to be right when one of the following cases holds:
 
 - All letters in this word are capitals, like `"USA"`.
@@ -79,7 +79,5 @@ Output:
 * Runtime: `O(N)`, where `N = word.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/detect-capital/](https://leetcode.com/problems/detect-capital/)
-* [https://www.leetsolve.com/520-detect-capital](https://www.leetsolve.com/520-detect-capital)
+
 

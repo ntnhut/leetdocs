@@ -1,6 +1,6 @@
 # Linked List Cycle
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/linked-list-cycle/)
 
 Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
 
@@ -166,7 +166,5 @@ Output:
 * Runtime: `O(N)`, where `N` is the length of the linked list.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/linked-list-cycle/](https://leetcode.com/problems/linked-list-cycle/)
-* [https://www.leetsolve.com/141-linked-list-cycle](https://www.leetsolve.com/141-linked-list-cycle)
+
 

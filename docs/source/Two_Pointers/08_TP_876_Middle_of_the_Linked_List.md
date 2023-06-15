@@ -1,6 +1,6 @@
 # Middle of the Linked List
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/middle-of-the-linked-list/)
 Given the `head` of a singly linked list, return *the middle node of the linked list*.
 
 If there are two middle nodes, return *the second middle* node.
@@ -148,7 +148,5 @@ Output:
 * The approach using slow and fast pointers looks very nice and faster. But it is not suitable to generalize this problem to any relative position (one-third, a quarter, etc.). Moreover, long expressions like `fast->next->...->next` are not recommended. 
 * Though the counting nodes approach does not seem optimized, it is more readable, scalable and maintainable.
 
-## References
-* [https://leetcode.com/problems/middle-of-the-linked-list/](https://leetcode.com/problems/middle-of-the-linked-list/)
-* [https://www.leetsolve.com/876-middle-of-the-linked-list](https://www.leetsolve.com/876-middle-of-the-linked-list)
+
 

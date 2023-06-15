@@ -1,6 +1,6 @@
 # Minimum Deletions to Make Character Frequencies Unique
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 A string `s` is called good if there are no two different characters in `s` that have the same frequency.
 
@@ -93,7 +93,5 @@ Output:
 * Runtime: `O(N)`, where `N = s.length`;
 * Extra space: `O(1)` since `26` is not a big number.
 
-## References
-* [https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
-* [https://www.leetsolve.com/1647-minimum-deletions-to-make-character-frequencies-unique](https://www.leetsolve.com/1647-minimum-deletions-to-make-character-frequencies-unique)
+
 

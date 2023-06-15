@@ -1,6 +1,6 @@
 # Shortest Unsorted Continuous Subarray
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 
 Given an integer array `nums`, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order.
 
@@ -144,7 +144,5 @@ Solution 2 helped you identify the shortest subarray (by the `left` and `right` 
 
 That means in some cases you can sort an array with complexity `O(N + mlogm) < O(NlogN)` where `N` is the length of the whole array and `m` is the length of the shortest subarray.
 
-## References
-* [https://leetcode.com/problems/shortest-unsorted-continuous-subarray/](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
-* [https://www.leetsolve.com/581-shortest-unsorted-continuous-subarray](https://www.leetsolve.com/581-shortest-unsorted-continuous-subarray)
+
 

@@ -1,6 +1,6 @@
 # Maximum Erasure Value
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/maximum-erasure-value/)
 
 You are given an array of positive integers `nums` and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements.
 
@@ -74,6 +74,4 @@ Output:
 * Runtime: `O(N)`, where `N = nums.length`.
 * Extra space: `O(N)`.
 
-## References
-* [https://leetcode.com/problems/maximum-erasure-value/](https://leetcode.com/problems/maximum-erasure-value/)
-* [https://www.leetsolve.com/1695-maximum-erasure-value](https://www.leetsolve.com/1695-maximum-erasure-value)
+

@@ -1,8 +1,6 @@
 # Wiggle Subsequence
 
-
-
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/wiggle-subsequence/)
 A **wiggle sequence** is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with one element and a sequence with two non-equal elements are trivially wiggle sequences.
 
 * For example, `[1, 7, 4, 9, 2, 5]` is a wiggle sequence because the differences `(6, -3, 5, -7, 3)` alternate between positive and negative.
@@ -105,7 +103,5 @@ Output:
 * Runtime: `O(n)`, where `n = nums.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/wiggle-subsequence/](https://leetcode.com/problems/wiggle-subsequence/)
-* [https://www.leetsolve.com/376-wiggle-subsequence](https://www.leetsolve.com/376-wiggle-subsequence)
+
 

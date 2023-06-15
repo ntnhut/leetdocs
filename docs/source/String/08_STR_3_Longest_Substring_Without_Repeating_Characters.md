@@ -1,6 +1,6 @@
 # Longest Substring Without Repeating Characters
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Given a string `s`, find the length of the longest substring without repeating characters.
 
@@ -88,7 +88,5 @@ Output:
 * Runtime: `O(N)`, where `N = s.length`.
 * Extra space: `O(N)`.
 
-## References
-* [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-* [https://www.leetsolve.com/3-longest-substring-without-repeating-characters](https://www.leetsolve.com/3-longest-substring-without-repeating-characters)
+
 

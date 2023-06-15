@@ -1,6 +1,6 @@
 # Merge Sorted Array
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/merge-sorted-array/)
 
 You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
 
@@ -156,7 +156,5 @@ Output:
 * Runtime: `O(m + n)`, where `m + n = nums1.length, n = nums2.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/merge-sorted-array/](https://leetcode.com/problems/merge-sorted-array/)
-* [https://www.leetsolve.com/88-merge-sorted-array](https://www.leetsolve.com/88-merge-sorted-array)
+
 

@@ -1,6 +1,6 @@
 # Count Sorted Vowel Strings
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/count-sorted-vowel-strings/)
 
 Given an integer `n`, return the number of strings of length `n` that consist only of vowels (`a`, `e`, `i`, `o`, `u`) and are lexicographically sorted.
 
@@ -157,7 +157,5 @@ Output:
 * Runtime: `O(1)`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/count-sorted-vowel-strings/](https://leetcode.com/problems/count-sorted-vowel-strings/)
-* [https://www.leetsolve.com/1641-count-sorted-vowel-strings/](https://www.leetsolve.com/1641-count-sorted-vowel-strings/)
+
 

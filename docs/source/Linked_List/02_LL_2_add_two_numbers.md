@@ -1,6 +1,6 @@
 # Add Two Numbers
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/add-two-numbers/)
 
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
@@ -128,7 +128,4 @@ Output:
 * Runtime: `O(N)`, where `N = max(l1.length, l2.length)`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
-* [https://www.leetsolve.com/2-add-two-numbers](https://www.leetsolve.com/2-add-two-numbers)
 

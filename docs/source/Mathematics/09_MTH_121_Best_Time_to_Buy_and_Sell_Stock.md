@@ -1,6 +1,6 @@
 # Best Time to Buy and Sell Stock
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 You are given an array `prices` where `prices[i]` is the price of a given stock on the `i-th` day.
 
@@ -152,7 +152,5 @@ Output:
 * Runtime: `O(N)`, where `N = prices.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-* [https://www.leetsolve.com/121-best-time-to-buy-and-sell-stock](https://www.leetsolve.com/121-best-time-to-buy-and-sell-stock)
+
 

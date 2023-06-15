@@ -1,6 +1,7 @@
 # Unique Morse Code Words
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/unique-morse-code-words/)
+
 International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
 
 * `'a'` maps to `".-"`,
@@ -88,7 +89,4 @@ Output:
 * Runtime: `O(N*M)`, where `N = words.length` and `M = words[i].length`.
 * Extra space: `O(N)`.
 
-## References
-* [https://leetcode.com/problems/unique-morse-code-words/](https://leetcode.com/problems/unique-morse-code-words/)
-* [https://www.leetsolve.com/804-unique-morse-code-words](https://www.leetsolve.com/804-unique-morse-code-words)
 

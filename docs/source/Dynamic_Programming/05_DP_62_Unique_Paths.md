@@ -1,6 +1,6 @@
 # Unique Paths
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/unique-paths/)
 A robot is located at the top-left corner of a `m x n` grid (marked 'Start' in the diagram below).
 
 The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
@@ -181,6 +181,5 @@ Output:
 ## Final thought
 I am wondering if there is some mathematics behind this problem. Please share your finding if you find a formula for the solution to this problem.
 
-## References
-* [https://leetcode.com/problems/unique-paths/](https://leetcode.com/problems/unique-paths/)
-* [https://www.leetsolve.com/62-unique-paths](https://www.leetsolve.com/62-unique-paths)
+
+

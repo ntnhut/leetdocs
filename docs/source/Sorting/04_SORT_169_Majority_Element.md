@@ -1,6 +1,6 @@
 # Majority Element
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/majority-element/)
 
 Given an array `nums` of size `n`, return the majority element.
 
@@ -124,7 +124,7 @@ Output:
 
 ## Modern C++ notes
 
-In the code of Solution 3, the partial sorting algorithm `std::nth_element` will make sure for all indices `i` and `j` that satisfy `0 <= i <= mid <= j < nums.length`,
+In the code of Solution 3, the partial sorting algorithm [`std::nth_element`](https://en.cppreference.com/w/cpp/algorithm/nth_element) will make sure for all indices `i` and `j` that satisfy `0 <= i <= mid <= j < nums.length`,
 
 ```text
 nums[i] <= nums[mid] <= nums[j].
@@ -134,8 +134,4 @@ In other words, `nums[mid]` divides the array `nums` into two groups: all elemen
 
 Those two groups are unsorted. That is why the algorithm is called *partial* sorting. 
 
-## References
-* [https://leetcode.com/problems/majority-element/](https://leetcode.com/problems/majority-element/)
-* [https://www.leetsolve.com/169-majority-element](https://www.leetsolve.com/169-majority-element)
-* [https://en.cppreference.com/w/cpp/algorithm/nth_element](https://en.cppreference.com/w/cpp/algorithm/nth_element)
 

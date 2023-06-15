@@ -1,6 +1,6 @@
 # Remove Nth Node From End of List
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 Given the `head` of a linked list, remove the `n-th` node from the end of the list and return its head.
 
 
@@ -169,7 +169,5 @@ Output:
 * Runtime: `O(sz)`, where `sz` is the number of nodes in the list.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/remove-nth-node-from-end-of-list/](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-* [https://www.leetsolve.com/19-remove-nth-node-from-end-of-list](https://www.leetsolve.com/19-remove-nth-node-from-end-of-list)
+
 

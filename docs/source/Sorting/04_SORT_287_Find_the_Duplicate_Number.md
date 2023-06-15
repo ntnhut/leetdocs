@@ -1,7 +1,7 @@
 # Find the Duplicate Number
 
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/find-the-duplicate-number/)
 
 Given an array of integers `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive.
 
@@ -152,8 +152,5 @@ Output:
 * Runtime: `O(N)`, where `N = nums.length`.
 * Extra space: `O(1)`. 
 
-## References
 
-* [https://leetcode.com/problems/find-the-duplicate-number/](https://leetcode.com/problems/find-the-duplicate-number/)
-* [https://www.leetsolve.com/287-find-the-duplicate-number](https://www.leetsolve.com/287-find-the-duplicate-number)
 

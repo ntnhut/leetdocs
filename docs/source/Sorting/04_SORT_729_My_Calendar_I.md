@@ -1,7 +1,7 @@
 # My Calendar I
 
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/my-calendar-i/)
 You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a double booking.
 
 A double booking happens when two events have some non-empty intersection (i.e., some moment is common to both events.).
@@ -119,7 +119,5 @@ Output:
 * Runtime: `O(logN)`, where `N = _events.length`.
 * Extra space: `O(N)`.
 
-## References
-* [https://leetcode.com/problems/my-calendar-i/](https://leetcode.com/problems/my-calendar-i/)
-* [https://www.leetsolve.com/729-my-calendar-i](https://www.leetsolve.com/729-my-calendar-i)
+
 

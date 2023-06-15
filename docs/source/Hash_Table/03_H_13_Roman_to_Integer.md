@@ -1,6 +1,6 @@
 # Roman to Integer
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/roman-to-integer/)
 Roman numerals are represented by seven symbols: `I`, `V`, `X`, `L`, `C`, `D`, and `M`.
 
 ```text
@@ -94,7 +94,5 @@ Output:
 * Runtime: `O(N)` where `N = s.length`.
 * Extra space: `O(1)` (the map `value` is very small).
 
-## References
-* [https://leetcode.com/problems/roman-to-integer/](https://leetcode.com/problems/roman-to-integer/)
-* [https://www.leetsolve.com/13-roman-to-integer](https://www.leetsolve.com/13-roman-to-integer)
+
 

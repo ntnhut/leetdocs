@@ -1,6 +1,6 @@
 # Remove Linked List Elements
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/remove-linked-list-elements/)
 Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list that has `Node.val == val`, and return *the new head*.
 
 ### Example 1
@@ -199,7 +199,5 @@ ListNode* removeElements(ListNode* head, int val) {
 * In some linked list problems where `head` needs to be treated as a special case, you can create a previous dummy node for it to adapt the general algorithm.
 * Be careful with memory leak when removing nodes of the linked list containing pointers. 
 
-## References
-* [https://leetcode.com/problems/remove-linked-list-elements/](https://leetcode.com/problems/remove-linked-list-elements/)
-* [https://www.leetsolve.com/203-remove-linked-list-elements](https://www.leetsolve.com/203-remove-linked-list-elements)
+
 

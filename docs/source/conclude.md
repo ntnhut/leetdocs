@@ -26,15 +26,3 @@ Here are some best practices to keep in mind when working on coding challenges:
 * **Keep practicing**: The more coding challenges you complete, the better you will become. Keep practicing and challenging yourself to learn new techniques and approaches to problem-solving.
 
 In conclusion, coding challenges are a great way to improve your coding skills and prepare for technical interviews. By following these best practices, you can ensure that you approach coding challenges in a structured and efficient manner, producing clean and readable code that is optimized for time and space complexity.
-
-   
-***
-
-\newpage
-   
-> *Thank you for taking the time to read this book. I hope it has been a valuable experience and that you are excited to continue your coding journey. Best of luck with your coding challenges, and remember to have fun along the way!*
-> 
-> *Visit my blog [leetsolve.com](https://leetsolve.com) to read more content.*
->
-> *I love to hear what you think about my content. Just drop an email to nhut@nhutnguyen.com and share your thoughts.*
-

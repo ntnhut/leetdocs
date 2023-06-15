@@ -1,6 +1,6 @@
 # Largest Divisible Subset
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/largest-divisible-subset/)
 
 Given a set of **distinct** positive integers `nums`, return the largest subset `answer` such that every pair `(answer[i], answer[j])` of elements in this subset satisfies:
 
@@ -220,6 +220,4 @@ Output:
 ## Key takeaway
 In this interesting problem, we use index mapping to simplify everything. That improves the performance in both runtime and memory.
 
-## References
-* [https://leetcode.com/problems/largest-divisible-subset/](https://leetcode.com/problems/largest-divisible-subset/)
-* [https://www.leetsolve.com/368-largest-divisible-subset](https://www.leetsolve.com/368-largest-divisible-subset)
+

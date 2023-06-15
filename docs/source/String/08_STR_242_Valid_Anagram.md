@@ -1,6 +1,6 @@
 # Valid Anagram
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/valid-anagram/)
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
@@ -140,7 +140,5 @@ Output:
 * Extra space: `O(1)`.
 
 
-## References
-* [https://leetcode.com/problems/valid-anagram/](https://leetcode.com/problems/valid-anagram/)
-* [https://www.leetsolve.com/242-valid-anagram](https://www.leetsolve.com/242-valid-anagram)
+
 

@@ -1,6 +1,6 @@
 # Container With Most Water
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/container-with-most-water/)
 
 You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `i-th` line are `(i, 0)` and `(i, height[i])`.
 
@@ -134,7 +134,6 @@ Output:
 * Runtime: `O(N)`, where `N = height.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/container-with-most-water/](https://leetcode.com/problems/container-with-most-water/)
+
 
 

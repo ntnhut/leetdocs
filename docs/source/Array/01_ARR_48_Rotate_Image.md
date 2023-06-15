@@ -1,7 +1,7 @@
 # Rotate Image
 
 
-## Problem statement^[[https://leetcode.com/problems/rotate-image/](https://leetcode.com/problems/rotate-image/)]
+## [Problem statement](https://leetcode.com/problems/rotate-image/)
 
 You are given an `n x n` 2D `matrix` representing an image. Rotate the image by 90 degrees (clockwise).
 
@@ -86,5 +86,5 @@ Output:
 * Extra space: `O(1)`.
 
 ## Implementation notes
-1. The function `std::swap`^[[https://en.cppreference.com/w/cpp/algorithm/swap](https://en.cppreference.com/w/cpp/algorithm/swap)] can be used to exchange two values.
+1. The function [`std::swap`](https://en.cppreference.com/w/cpp/algorithm/swap) can be used to exchange two values.
 2. When doing the transpose or mirroring, you could visit over one-half of the matrix.

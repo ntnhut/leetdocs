@@ -1,6 +1,6 @@
 # Array Nesting
 
-## Problem statement^[[https://leetcode.com/problems/array-nesting/](https://leetcode.com/problems/array-nesting/)]
+## [Problem statement](https://leetcode.com/problems/array-nesting/)
 You are given an integer array `nums` of length `n` where `nums` is a permutation of the numbers in the range `[0, n - 1]`.
 
 You should build a set `s[k] = {nums[k], nums[nums[k]], nums[nums[nums[k]]], ... }` subjected to the following rule:
@@ -34,7 +34,7 @@ Output: 1
 * All the values of `nums` are unique.
 
 ## Solution: Understanding the math behind
-A *permutation*^[[https://en.wikipedia.org/wiki/Permutation](https://en.wikipedia.org/wiki/Permutation)] is a one-to-one mapping from a set of integers to itself.
+A [permutation](https://en.wikipedia.org/wiki/Permutation) is a one-to-one mapping from a set of integers to itself.
 
 The permutation on the set `nums` in this problem is defined by the mapping `i -> nums[i]`. For instance in Example 1, the permutation is defined as following:
 ```text
@@ -103,5 +103,5 @@ Output:
 
 ### Complexity
 * Runtime: `O(n)`, where `n = nums.length`.
-* Extra space: much less than `O(n)` since `vector<bool>`^[[https://en.cppreference.com/w/cpp/container/vector_bool](https://en.cppreference.com/w/cpp/container/vector_bool)] is optimized for space efficiency.
+* Extra space: much less than `O(n)` since [`vector<bool>`](https://en.cppreference.com/w/cpp/container/vector_bool) is optimized for space efficiency.
 

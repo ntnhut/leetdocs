@@ -1,6 +1,6 @@
 # Power of Three
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/power-of-three/)
 Given an integer `n`, return `true` if it is a power of three. Otherwise, return `false`.
 
 An integer `n` is a power of three, if there exists an integer `x` such that `n == 3^x`.
@@ -96,7 +96,6 @@ Output:
 * Runtime: `O(1)`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/power-of-three/](https://leetcode.com/problems/power-of-three/)
-* [https://www.leetsolve.com/326-power-of-three](https://www.leetsolve.com/326-power-of-three)
+
+
 

@@ -1,6 +1,6 @@
 # Swap Nodes in Pairs
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/swap-nodes-in-pairs/)
 Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
  
 ### Example 1
@@ -98,6 +98,4 @@ Output:
 * Runtime: `O(N)`, where `N` is the number of nodes.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/swap-nodes-in-pairs/](https://leetcode.com/problems/swap-nodes-in-pairs/)
-* [https://www.leetsolve.com/24-swap-nodes-in-pairs](https://www.leetsolve.com/24-swap-nodes-in-pairs)
+

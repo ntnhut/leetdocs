@@ -1,6 +1,6 @@
 # Hamming Distance
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/hamming-distance/)
 The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.
 
 Given two integers `x` and `y`, return the **Hamming distance** between them.
@@ -58,7 +58,5 @@ Output:
 * Extra space: `O(1)`.
 
 
-## References
-* [https://leetcode.com/problems/hamming-distance/](https://leetcode.com/problems/hamming-distance/)
-* [https://www.leetsolve.com/461-hamming-distance/](https://www.leetsolve.com/461-hamming-distance/)
+
 

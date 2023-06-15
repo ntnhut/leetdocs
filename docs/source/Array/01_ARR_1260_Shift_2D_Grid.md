@@ -1,6 +1,6 @@
 # Shift 2D Grid
 
-## Problem statement^[[https://leetcode.com/problems/shift-2d-grid/](https://leetcode.com/problems/shift-2d-grid/)]
+## [Problem statement](https://leetcode.com/problems/shift-2d-grid/)
 
 Given a 2D `grid` of size `m x n` and an integer `k`. You need to shift the grid `k` times.
 
@@ -118,5 +118,5 @@ Output:
 * Extra space: `O(mn)` (the vector `v`).
 
 ## C++ notes
-1. To convert a 2D matrix into a 1D vector, you can use the vector's function `insert()`^[[https://en.cppreference.com/w/cpp/container/vector/insert](https://en.cppreference.com/w/cpp/container/vector/insert)].
+1. To convert a 2D matrix into a 1D vector, you can use the vector's function [`insert()`](https://en.cppreference.com/w/cpp/container/vector/insert).
 2. The modulo operator `%` is usually used to index an array to ensure the index is inbound.

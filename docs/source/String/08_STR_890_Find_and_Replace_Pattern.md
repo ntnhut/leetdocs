@@ -1,6 +1,6 @@
 # Find and Replace Pattern
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/find-and-replace-pattern/)
 
 Given a list of strings `words` and a string `pattern`, return a list of `words[i]` that match `pattern`. You may return the answer in any order.
 
@@ -99,7 +99,5 @@ Output:
 * Runtime: `O(N*L)`, where `N = words.length` and `L = pattern.length`.
 * Extra space: `O(1)` if `N` or `L` is very larger than 26. The maps `w_to_p` and `p_to_w` just map between 26 lowercase English letters.
 
-## References
-* [https://leetcode.com/problems/find-and-replace-pattern/](https://leetcode.com/problems/find-and-replace-pattern/)
-* [https://www.leetsolve.com/890-find-and-replace-pattern](https://www.leetsolve.com/890-find-and-replace-pattern)
+
 

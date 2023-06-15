@@ -3,7 +3,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :name: masterdoc
 
    intro
@@ -16,4 +16,5 @@ Contents
    Two_Pointers/index
    Mathematics/index
    conclude
+   thanks
 

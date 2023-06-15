@@ -1,6 +1,6 @@
 # Triangle
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/triangle/)
 
 Given a `triangle` array, return the minimum path sum from top to bottom.
 
@@ -124,6 +124,4 @@ Output:
 * Runtime: `O(n*n/2)`, where `n = triangle.length`.
 * Extra space: `O(n)`.
 
-## References
-* [https://leetcode.com/problems/triangle/](https://leetcode.com/problems/triangle/)
-* [https://www.leetsolve.com/120-triangle](https://www.leetsolve.com/120-triangle)
+

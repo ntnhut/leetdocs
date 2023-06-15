@@ -1,6 +1,6 @@
 # Merge Two Sorted Lists
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 You are given the heads of two sorted linked lists `list1` and `list2`.
 
@@ -120,7 +120,5 @@ Output:
 * Runtime: `O(N)`, where `N = list1.length + list2.length`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
-* [https://www.leetsolve.com/21-merge-two-sorted-lists](https://www.leetsolve.com/21-merge-two-sorted-lists)
+
 

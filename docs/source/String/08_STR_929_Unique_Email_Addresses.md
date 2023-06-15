@@ -1,6 +1,6 @@
 # Unique Email Addresses
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/unique-email-addresses/)
 
 Every valid email consists of a local name and a domain name, separated by the `'@'` sign. Besides lowercase letters, the email may contain one or more `'.'` or `'+'`.
 
@@ -176,7 +176,5 @@ cout << address.substr(0, address.find('@'));   // "name"
 - Do not use `std::set` or `std::map` unless you want the keys to be *in order* (*sorted*). Use *unordered containers* like [std::unordered_set](https://en.cppreference.com/w/cpp/container/unordered_set) or [std::unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map) instead. They use hashed keys for faster lookup.
 - Do not blindly/lazily use `string.find(something)`. If you know where to start the search, use `string.find(something, pos)` with a **specific** `pos`.
 
-## References
-* [https://leetcode.com/problems/unique-email-addresses/](https://leetcode.com/problems/unique-email-addresses/)
-* [https://www.leetsolve.com/929-unique-email-addresses](https://www.leetsolve.com/929-unique-email-addresses)
+
 

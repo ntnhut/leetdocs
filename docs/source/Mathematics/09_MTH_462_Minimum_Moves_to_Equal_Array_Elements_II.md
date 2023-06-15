@@ -1,7 +1,7 @@
 # Minimum Moves to Equal Array Elements II
 
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 
 Given an integer array `nums` of size `n`, return the minimum number of moves required to make all array elements equal.
 
@@ -127,7 +127,7 @@ Output:
 
 ## Modern C++ notes
 
-In the code of Solution 2, the partial sorting algorithm `std::nth_element` will make sure for all indices `i` and `j` that satisfy `0 <= i <= mid <= j < nums.length`,
+In the code of Solution 2, the partial sorting algorithm [`std::nth_element`](https://en.cppreference.com/w/cpp/algorithm/nth_element) will make sure for all indices `i` and `j` that satisfy `0 <= i <= mid <= j < nums.length`,
 
 ```text
 nums[i] <= nums[mid] <= nums[j].
@@ -135,8 +135,6 @@ nums[i] <= nums[mid] <= nums[j].
 
 With this property, if `mid = nums.length / 2` then the value of `nums[mid]` is unchanged no matter how `nums` is sorted or not.
 
-## References
-* [https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
-* [https://www.leetsolve.com/462-minimum-moves-to-equal-array-elements-ii](https://www.leetsolve.com/462-minimum-moves-to-equal-array-elements-ii)
-* [https://en.cppreference.com/w/cpp/algorithm/nth_element](https://en.cppreference.com/w/cpp/algorithm/nth_element)
+
+
 

@@ -1,6 +1,6 @@
 # Can Place Flowers
 
-## Problem statement^[[https://leetcode.com/problems/can-place-flowers/](https://leetcode.com/problems/can-place-flowers/)]
+## [Problem statement](https://leetcode.com/problems/can-place-flowers/)
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in **adjacent** plots.
 
 Given an integer array `flowerbed` containing `0`'s and `1`'s, where `0` means empty and `1` means not empty, and an integer `n`, return `true` if `n` new flowers can be planted in the `flowerbed` without violating the no-adjacent-flowers rule.
@@ -75,5 +75,5 @@ Output:
 
 ## Implementation note
 * In this implementation, you could insert element `0` to the front and the back of vector `flowerbed` to avoid writing extra code for checking the no-adjacent-flowers rule at `i = 0` and `i = flowerbed.size() - 1`.
-* There are a few ways to insert an element to a vector. Here you can see an example of using the methods `insert`^[[https://en.cppreference.com/w/cpp/container/vector/insert](https://en.cppreference.com/w/cpp/container/vector/insert)] and `push_back`^[[https://en.cppreference.com/w/cpp/container/vector/push_back](https://en.cppreference.com/w/cpp/container/vector/push_back)] of a [`std::vector`](https://en.cppreference.com/w/cpp/container/vector).
+* There are a few ways to insert an element to a vector. Here you can see an example of using the methods [`insert`](https://en.cppreference.com/w/cpp/container/vector/insert) and [`push_back`](https://en.cppreference.com/w/cpp/container/vector/push_back) of a [`std::vector`](https://en.cppreference.com/w/cpp/container/vector).
 

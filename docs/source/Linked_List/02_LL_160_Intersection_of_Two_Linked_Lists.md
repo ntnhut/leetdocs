@@ -1,6 +1,6 @@
 # Intersection of Two Linked Lists
 
-## Problem statement^[[https://leetcode.com/problems/intersection-of-two-linked-lists/](https://leetcode.com/problems/intersection-of-two-linked-lists/)]
+## [Problem statement(https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return `null`.
 

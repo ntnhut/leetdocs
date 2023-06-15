@@ -1,6 +1,6 @@
 # Fibonacci Number
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/fibonacci-number/)
 
 The Fibonacci numbers, commonly denoted `F(n)` form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from `0` and `1`. That is,
 
@@ -135,6 +135,4 @@ Output:
 * Runtime: `O(n)`.
 * Extra space: `O(1)`.
 
-## References
-* [https://leetcode.com/problems/fibonacci-number/](https://leetcode.com/problems/fibonacci-number/)
-* [https://www.leetsolve.com/509-fibonacci-number](https://www.leetsolve.com/509-fibonacci-number)
+

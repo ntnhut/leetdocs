@@ -1,6 +1,6 @@
 # Transpose Matrix
 
-## Problem statement^[[https://leetcode.com/problems/transpose-matrix/](https://leetcode.com/problems/transpose-matrix/)]
+## [Problem statement](https://leetcode.com/problems/transpose-matrix/)
 
 Given a 2D integer array `matrix`, return the transpose of `matrix`.
 
@@ -77,5 +77,5 @@ Output:
 * Extra space: `O(1)`.
 
 ## Implementation note
-Note that the matrix might not be square, you cannot just swap the elements using for example the function `std::swap`^[[https://en.cppreference.com/w/cpp/algorithm/swap](https://en.cppreference.com/w/cpp/algorithm/swap)].
+Note that the matrix might not be square, you cannot just swap the elements using for example the function [`std::swap`](https://en.cppreference.com/w/cpp/algorithm/swap).
 

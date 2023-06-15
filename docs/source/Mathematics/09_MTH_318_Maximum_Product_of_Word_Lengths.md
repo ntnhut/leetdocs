@@ -1,6 +1,6 @@
 # Maximum Product of Word Lengths
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/maximum-product-of-word-lengths/)
 
 Given a string array `words`, return the maximum value of `length(word[i]) * length(word[j])` where the two words do not share common letters. If no such two words exist, return `0`.
 
@@ -144,7 +144,5 @@ Output:
 * Extra space: `O(N)`.
 
 
-## References
-* [https://leetcode.com/problems/maximum-product-of-word-lengths/](https://leetcode.com/problems/maximum-product-of-word-lengths/)
-* [https://www.leetsolve.com/318-maximum-product-of-word-lengths/](https://www.leetsolve.com/318-maximum-product-of-word-lengths/)
+
 

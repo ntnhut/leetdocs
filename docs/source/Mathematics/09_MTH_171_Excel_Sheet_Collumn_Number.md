@@ -1,7 +1,7 @@
 # Excel Sheet Column Number
 Tag: easy, string
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/excel-sheet-column-number/)
 
 Given a string `columnTitle` that represents the column title as appears in an Excel sheet, return its corresponding column number.
 
@@ -123,7 +123,5 @@ Output:
 2. To map `'A' = 1, ..., 'Z' = 26`, you can use their ASCII values (`'A' = 65, ..., 'Z' = 90`) minus `64`.
 3. The parentheses around `(c - 64)` is needed. Otherwise the value of `columnTitle = "FXSHRXW"` makes `26*column + c` exceed the limit of `int` before it substracts `64`. 
 
-## References
-* [https://leetcode.com/problems/excel-sheet-column-number/](https://leetcode.com/problems/excel-sheet-column-number/)
-* [https://www.leetsolve.com/171-excel-sheet-column-number](https://www.leetsolve.com/171-excel-sheet-column-number)
+
 

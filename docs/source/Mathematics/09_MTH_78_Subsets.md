@@ -1,6 +1,6 @@
 # Subsets
 
-## Problem Statement
+## [Problem Statement](https://leetcode.com/problems/subsets/)
 Given an integer array `nums` of unique elements, return all possible subsets (the power set).
 
 The solution set must not contain duplicate subsets. Return the solution in any order.
@@ -83,7 +83,5 @@ Output:
 * Runtime: `O(2^N)`, where `N = nums.length`.
 * Extra space: `O(2^N)`.
 
-## References
-* [https://leetcode.com/problems/subsets/](https://leetcode.com/problems/subsets/)
-* [https://www.leetsolve.com/78-subsets](https://www.leetsolve.com/78-subsets)
+
 

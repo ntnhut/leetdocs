@@ -1,6 +1,6 @@
 # Find All Numbers Disappeared in an Array
 
-## Problem statement^[[https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)]
+## [Problem statement](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 Given an array `nums` of `n` integers where `nums[i]` is in the range `[1, n]`, return an array of all the integers in the range `[1, n]` that do not appear in `nums`.
 
 ### Example 1
@@ -73,7 +73,7 @@ Output:
 
 * Runtime: `O(n)`, where `n = nums.length`.
     
-* Extra space: much less than `O(n)`. `vector<bool>`^[[https://en.cppreference.com/w/cpp/container/vector_bool](https://en.cppreference.com/w/cpp/container/vector_bool)] is optimized for space efficiency; it stores single bits.
+* Extra space: much less than `O(n)`. [`vector<bool>`](https://en.cppreference.com/w/cpp/container/vector_bool) is optimized for space efficiency; it stores single bits.
     
 
 ## Solution 2: Follow up
@@ -135,5 +135,3 @@ Output:
 * Solution 2 helps to avoid allocating extra memory but it is not straightforward to understand.
     
 * Though Solution 1 requires some extra space, that memory is not much since `vector<bool>` is optimized for space efficiency. Moreover, it is easier to understand than Solution 2.
-
-\newpage
