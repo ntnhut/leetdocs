@@ -6,7 +6,7 @@ Contents
    :maxdepth: 2
    :name: masterdoc
 
-   intro
+   
    Array/index
    Linked_List/index
    Hash_Table/index
@@ -15,6 +15,4 @@ Contents
    String/index
    Two_Pointers/index
    Mathematics/index
-   conclude
-   thanks
-
+   
