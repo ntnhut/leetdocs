@@ -5,7 +5,7 @@ Given the `head` of a linked list, remove the `n-th` node from the end of the li
 
 
 ### Example 1
-![The list in Example 1](08_TP_19_remove_ex1.jpg){width=200px}
+![The list in Example 1](08_TP_19_remove_ex1.jpg)
 ```text
 Input: head = [1,2,3,4,5], n = 2
 Output: [1,2,3,5]

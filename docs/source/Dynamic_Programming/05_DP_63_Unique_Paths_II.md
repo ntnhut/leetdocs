@@ -13,7 +13,7 @@ The test cases are generated so that the answer will be less than or equal to `2
  
 
 ### Example 1
-![The obstacle grid of Example 1](05_DP_63_robot1.jpg){width=150px}
+![The obstacle grid of Example 1](05_DP_63_robot1.jpg)
 
 ```text
 Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
@@ -25,7 +25,7 @@ There are two ways to reach the bottom-right corner:
 ```
 
 ### Example 2
-![The obstacle grid of Example 2](05_DP_63_robot2.jpg){width=100px}
+![The obstacle grid of Example 2](05_DP_63_robot2.jpg)
 ```text
 Input: obstacleGrid = [[0,1],[0,0]]
 Output: 1

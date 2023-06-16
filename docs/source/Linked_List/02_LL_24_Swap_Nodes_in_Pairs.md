@@ -4,7 +4,7 @@
 Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
  
 ### Example 1
-![The link list and its result in Example 1.](02_LL_24_swap_ex1.jpg){width=210px}
+![The link list and its result in Example 1.](02_LL_24_swap_ex1.jpg)
 ```text
 Input: head = [1,2,3,4]
 Output: [2,1,4,3]
@@ -30,7 +30,7 @@ Output: [1]
 
 Draw a picture of the swapping to identify the correct order of the update.
 
-![The swapping steps.](02_LL_24_drawing_1.png){width=300px}
+![The swapping steps.](02_LL_24_drawing_1.png)
 
 Denote `(cur, next)` the pair of nodes you want to swap and `prev` be the previous node that links to `cur`. Here are the steps you need to perform for the swapping.
 1. Update the links between nodes.
