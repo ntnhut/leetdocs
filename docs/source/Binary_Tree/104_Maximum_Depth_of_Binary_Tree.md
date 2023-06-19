@@ -1,4 +1,4 @@
-# 104. Maximum Depth of Binary Tree
+# Maximum Depth of Binary Tree
 
 ## Problem statement
 

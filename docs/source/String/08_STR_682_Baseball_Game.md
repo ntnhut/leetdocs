@@ -1,7 +1,6 @@
-## 682. Baseball Game
-Tags: string, easy
+# Baseball Game
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/baseball-game/)
 
 You are keeping score for a baseball game with strange rules. The game consists of several rounds, where the scores of past rounds may affect future rounds' scores.
 
@@ -15,7 +14,7 @@ Return the sum of all the scores on the record.
 
  
 
-#### Example 1
+### Example 1
 ```plain
 Input: ops = ["5","2","C","D","+"]
 Output: 30
@@ -28,7 +27,7 @@ Explanation:
 The total sum is 5 + 10 + 15 = 30.
 ```
 
-#### Example 2
+### Example 2
 ```plain
 Input: ops = ["5","-2","4","C","D","9","+","+"]
 Output: 27
@@ -44,22 +43,22 @@ Explanation:
 The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.
 ```
 
-#### Example 3
+### Example 3
 ```plain
 Input: ops = ["1"]
 Output: 1
 ``` 
 
-#### Constraints
+### Constraints
 
 * `1 <= ops.length <= 1000`.
 * `ops[i]` is `"C"`, `"D"`, `"+"`, or a string representing an integer in the range `[-3 * 10^4, 3 * 10^4]`.
 * For operation `"+"`, there will always be at least two previous scores on the record.
 * For operations `"C"` and `"D"`, there will always be at least one previous score on the record.
 
-### Solution
+## Solution
 
-#### Code
+### Code
 ```cpp
 #include <vector>
 #include <iostream>
@@ -94,11 +93,11 @@ Output:
 27
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(N)`, where `N = ops.length`.
 * Extra space: `O(N)`.
 
-### Implementation notes
+## Implementation notes
 
 1. The data structure `stk` you might need to solve this problem is a stack. But here are the reasons you had better use [`std::vector`](https://en.cppreference.com/w/cpp/container/vector):
     * `std::vector` has also methods [`push_back(value)`](https://en.cppreference.com/w/cpp/container/vector/push_back) and [`pop_back()`](https://en.cppreference.com/w/cpp/container/vector/pop_back) like the ones in stack.
@@ -106,6 +105,4 @@ Output:
 
 2. [`accumulate(stk.begin(), stk.end(), 0)`](https://en.cppreference.com/w/cpp/algorithm/accumulate) computes the sum of the vector `stk`.
 
-### References
-* [https://leetcode.com/problems/baseball-game/](https://leetcode.com/problems/baseball-game/)
-* [https://www.leetsolve.com/682-baseball-game](https://www.leetsolve.com/682-baseball-game)
+

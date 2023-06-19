@@ -1,5 +1,4 @@
 # Excel Sheet Column Number
-Tag: easy, string
 
 ## [Problem statement](https://leetcode.com/problems/excel-sheet-column-number/)
 

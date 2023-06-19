@@ -1,41 +1,40 @@
-## 279. Perfect Squares
-Tag: medium, math
+# Perfect Squares
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/perfect-squares/)
 Given an integer `n`, return the least number of perfect square numbers that sum to `n`.
 
 A **perfect square** is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, `1`, `4`, `9`, and `16` are perfect squares while `3` and `11` are not.
 
-#### Example 1
+### Example 1
 ```plain
 Input: n = 9
 Output: 1
 Explanation: 9 is already a perfect square.
 ```
-#### Example 2
+### Example 2
 ```plain
 Input: n = 13
 Output: 2
 Explanation: 13 = 4 + 9.
 ```
-#### Example 3
+### Example 3
 ```plain
 Input: n = 7
 Output: 4
 Explanation: 7 = 4 + 1 + 1 + 1.
 ```
-#### Example 4
+### Example 4
 ```plain
 Input: n = 12
 Output: 3
 Explanation: 12 = 4 + 4 + 4.
 ```
 
-#### Constraints
+### Constraints
 
 * `1 <= n <= 10^4`.
 
-### Solution 1: Dynamic Programming
+## Solution 1: Dynamic Programming
 Let us call the function to be computed `numSquares(n)`, which calculates the least number of perfect squares that sum to `n`.
 
 Here are the findings.
@@ -43,7 +42,7 @@ Here are the findings.
 2. Otherwise, it could be written as `n = 1 + (n-1)`, or `n = 4 + (n-4)`, or `n = 9 + (n-9)`, etc. which means `n` is a sum of a perfect square (`1, 4` or `9`, etc.) and another number `m < n`. That leads to the problems `numSquares(m)` of smaller values `m`.
 3. If you have gotten the results of the smaller problems `numSquares(n-1)`, `numSquares(n-4)`, `numSquares(n-9)`, etc. then `numSquares(n) = 1 + the minimum of those results`.
 
-#### Example 4
+### Example 4
 `n = 12` is not a perfect square. It can be written as `n = 1 + 11 = 4 + 8 = 9 + 3`.
 - For `m = 11`, it is not a perfect square and can be written as `m = 1 + 10 = 4 + 7 = 9 + 2`.
 - For `m = 8`, it is not a perfect square and can be written as `m = 1 + 7 = 4 + 4` (matched). You get `numSquares(8) = 2`.
@@ -53,7 +52,7 @@ You can continue to compute `numSquares(m)` for other values `m` in this recursi
 
 To improve runtime, you can apply *dynamic programming* to cache the `numSquares(n)` that you have computed.
 
-#### Code
+### Code
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -90,11 +89,11 @@ Output:
 3
 2
 ```
-#### Complexity
+### Complexity
 * Runtime: `O(n^2)`.
 * Extra space: `O(n)`
 
-### Solution 2: Number Theory
+## Solution 2: Number Theory
 The dynamic programming solution above is good enough. But for those who are interested in Algorithmic Number Theory, there is a very interesting theorem that can solve the problem directly without recursion.
 
 It is called [Lagrange's Four-Square Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem), which states
@@ -102,7 +101,7 @@ It is called [Lagrange's Four-Square Theorem](https://en.wikipedia.org/wiki/Lagr
 > *every natural number can be represented as the sum of four integer squares.*
 
 It was proven by Lagrange in 1770.
-#### Example 4
+### Example 4
 `n = 12 = 4 + 4 + 4 + 0` or `12 = 1 + 1 + 1 + 9`.
 
 Applying to our problem, **`numSquares(n)` can only be 1, 2, 3, or 4. Not more.**
@@ -120,10 +119,10 @@ Here are the cases.
     where `a, b` are nonnegative integers. 
     In other words, `numSquares(n) = 4` if `n` is of this form.
 
-#### Example 3
+### Example 3
 `n = 7 = 4^0(8*0 + 7)`. It can only be written as `7 = 4 + 1 + 1 + 1`.
 
-#### Code
+### Code
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -162,11 +161,11 @@ Output:
 3
 2
 ```
-#### Complexity
+### Complexity
 * Runtime: `O(logn)`.
 * Extra space: `O(1)`.
 
-### Solution 3: Further performance improvement
+## Solution 3: Further performance improvement
 Lagrange's Four-Square Theorem and Legendre's Three-Square Theorem are so powerful to solve this problem. But you can still do a little more algebra to improve further the runtime of the implementation above.
 
 Instead of looping over `sqrt(n)` in the final `for` loop, we will prove that this loop over `sqrt(m)` is enough. That will improve runtime a lot since `m` is much less than `n`.
@@ -186,7 +185,7 @@ In other words, `numSquares(n) = numSquares(m)`.
 Now you can change directly the value `n` during the Legendre's `while` loop without affecting the final result. 
 
 
-#### Code
+### Code
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -224,11 +223,11 @@ Output:
 3
 2
 ```
-#### Complexity
+### Complexity
 * Runtime: `O(logn)`.
 * Extra space: `O(1)`.
 
-### Conclusion
+## Conclusion
 - The title of this coding challenge (*Perfect squares*) gives you a hint it is more about mathematics than coding technique.
 - It is amazing from Lagrange's Four-Square Theorem there are only four possibilities for the answer to the problem. Not many people knowing it.
 - You can get an optimal solution to a coding problem when you know something about the mathematics behind it.
@@ -238,9 +237,3 @@ Hope you learn something from this code challenge.
 *Have fun with coding and mathematics!*
 
 
-
----
-
-*Thanks for reading. Feel free to share your thought about my content and check out my FREE book [10 Classic Coding Challenges](https://store.nhutnguyen.com/l/10_classic).*
-
-*What is your approach? The problem was picked from [leetcode.com](https://leetcode.com/problems/perfect-squares/). You can submit your solution in any programming language and check the performance.*

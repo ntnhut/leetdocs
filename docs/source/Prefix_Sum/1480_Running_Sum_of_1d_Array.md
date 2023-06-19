@@ -1,4 +1,4 @@
-# 1480. Running Sum of 1d Array
+# Running Sum of 1d Array
 
 ## Problem statement
 

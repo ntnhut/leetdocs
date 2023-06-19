@@ -1,11 +1,11 @@
-## 797. All Paths From Source to Target
+# All Paths From Source to Target
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/all-paths-from-source-to-target/)
 Given a *directed acyclic graph* (DAG) of `n` nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in any order.
 
 The graph is given as follows: `graph[i]` is a list of all nodes you can visit from node `i` (i.e., there is a directed edge from node `i` to node `graph[i][j]`).
 
-#### Example 1
+### Example 1
 ![Example 1](797_all_1.jpg)
 ```plain
 Input: graph = [[1,2],[3],[3],[]]
@@ -13,32 +13,32 @@ Output: [[0,1,3],[0,2,3]]
 Explanation: There are two paths: `0 -> 1 -> 3` and `0 -> 2 -> 3`.
 ```
 
-#### Example 2
+### Example 2
 ![Example 2](797_all_2.jpg)
 ```plain
 Input: graph = [[4,3,1],[3,2,4],[3],[4],[]]
 Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 ```
 
-#### Example 3
+### Example 3
 ```plain
 Input: graph = [[1],[]]
 Output: [[0,1]]
 ```
 
-#### Example 4
+### Example 4
 ```plain
 Input: graph = [[1,2,3],[2],[3],[]]
 Output: [[0,1,2,3],[0,2,3],[0,3]]
 ```
 
-#### Example 5
+### Example 5
 ```plain
 Input: graph = [[1,3],[2],[3],[]]
 Output: [[0,1,2,3],[0,3]]
 ```
  
-#### Constraints
+### Constraints
 
 * `n == graph.length`.
 * `2 <= n <= 15`.
@@ -47,11 +47,11 @@ Output: [[0,1,2,3],[0,3]]
 * All the elements of `graph[i]` are unique.
 * The input graph is guaranteed to be a DAG.
 
-### Solution: Depth-first search (DFS)
+## Solution: Depth-first search (DFS)
 
 This problem is exactly the [Depth-first search algorithm](https://en.wikipedia.org/wiki/Depth-first_search).
 
-#### Code
+### Code
 ```cpp
 #include <vector>
 #include <iostream>
@@ -100,10 +100,8 @@ Output:
 [[0,4,],[0,3,4,],[0,1,3,4,],[0,1,2,3,4,],[0,1,4,],]
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(N^2)`, where `N = graph.length`.
 * Extra space: `O(N)`.
 
-### References
-* [https://leetcode.com/problems/all-paths-from-source-to-target/](https://leetcode.com/problems/all-paths-from-source-to-target/)
-* [https://www.leetsolve.com/797-all-paths-from-source-to-target](https://www.leetsolve.com/797-all-paths-from-source-to-target)
+

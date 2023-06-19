@@ -1,8 +1,6 @@
-## 703. Kth Largest Element in a Stream
-Tag: easy
+# Kth Largest Element in a Stream
 
-
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
 Design a class to find the `k-th` largest element in a stream. Note that it is the `k-th` largest element in the sorted order, not the `k-th` distinct element.
 
@@ -12,7 +10,7 @@ Implement `KthLargest` class:
 * `int add(int val)` Appends the integer `val` to the stream and returns the element representing the `k-th` largest element in the stream.
  
 
-#### Example 1
+### Example 1
 ```plain
 Input
 ["KthLargest", "add", "add", "add", "add", "add"]
@@ -29,7 +27,7 @@ kthLargest.add(9);   // return 8
 kthLargest.add(4);   // return 8
 ``` 
 
-#### Constraints
+### Constraints
 
 * `1 <= k <= 10^4`.
 * `0 <= nums.length <= 10^4`.
@@ -38,11 +36,11 @@ kthLargest.add(4);   // return 8
 * At most `10^4` calls will be made to add.
 * It is guaranteed that there will be at least `k` elements in the array when you search for the `k-th` element.
 
-### Solution 1: Sort and Append
+## Solution 1: Sort and Append
 
 Sort the stream when initialization. And keep it sorted whenever you append a new value.
 
-#### Example 1
+### Example 1
 For `nums = [4, 5, 8, 2]` and `k = 3`.
 * Sort `nums = [8, 5, 4, 2]`.
 * Adding `3` to `nums`. It becomes `[8, 5, 4, 3, 2]`. The third largest element is `4`.
@@ -50,7 +48,7 @@ For `nums = [4, 5, 8, 2]` and `k = 3`.
 * Adding `10` to `nums`. It becomes `[10, 8, 5, 5, 4, 3, 2]`. The third largest element is `5`.
 * So on and so on.
 
-#### Code 
+### Code 
 ```cpp
 #include <vector>
 #include <algorithm>
@@ -92,11 +90,11 @@ Output:
 8
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(NlogN)`, where `N = nums.length`.
 * Extra space: `O(1)`.
 
-### Solution 2: Priority queue
+## Solution 2: Priority queue
 
 There is a data structure that has the property you want in this problem. 
 
@@ -106,7 +104,7 @@ By default, the "less than" comparison is used for `std::priority_queue` and the
 
 If you want the top one is always the smallest element, you can use the comparison "greater than" for your queue.
 
-#### Code
+### Code
 ```cpp
 #include <vector>
 #include <queue>
@@ -147,11 +145,8 @@ Output:
 8
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(N)`, where `N = nums.length`.
 * Extra space: `O(1)`.
 
-### References
-* [https://leetcode.com/problems/kth-largest-element-in-a-stream/](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-* [https://en.cppreference.com/w/cpp/container/priority_queue](https://en.cppreference.com/w/cpp/container/priority_queue)
-* [https://www.leetsolve.com/703-kth-largest-element-in-a-stream](https://www.leetsolve.com/703-kth-largest-element-in-a-stream)
+

@@ -1,7 +1,7 @@
-## 1209. Remove All Adjacent Duplicates in String II
-Tag: string, stack
+# Remove All Adjacent Duplicates in String II
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+
 
 You are given a string `s` and an integer `k`, a `k` duplicate removal consists of choosing `k` adjacent and the same letters from `s` and removing them, causing the left and the right side of the deleted substring to concatenate together.
 
@@ -9,14 +9,14 @@ We repeatedly make `k` duplicate removals on `s` until we no longer can.
 
 Return the final string after all such duplicate removals have been made. It is guaranteed that the answer is unique.
 
-#### Example 1
+### Example 1
 ```plain
 Input: s = "abcd", k = 2
 Output: "abcd"
 Explanation: There is nothing to delete.
 ```
 
-#### Example 2
+### Example 2
 ```plain
 Input: s = "deeedbbcccbdaa", k = 3
 Output: "aa"
@@ -26,23 +26,23 @@ Then delete "bbb", get "dddaa"
 Finally delete "ddd", get "aa"
 ```
 
-#### Example 3
+### Example 3
 ```plain
 Input: s = "pbbcggttciiippooaais", k = 2
 Output: "ps"
 ``` 
 
-#### Constraints
+### Constraints
 
 * `1 <= s.length <= 10^5`.
 * `2 <= k <= 10^4`.
 * `s` only contains lower case English letters.
 
-### Solution: Strings of adjacent equal letters 
+## Solution: Strings of adjacent equal letters 
 
 Construct a stack of strings that has adjacent equal letters and perform the removal during building those strings.
 
-#### Example 2
+### Example 2
 For `s = "deeedbbcccbdaa"` and `k = 3`:
 
 * The first built string is `"d"`.
@@ -54,7 +54,7 @@ For `s = "deeedbbcccbdaa"` and `k = 3`:
 * The next character `'d'` is merged with the last string (`"dd"`) to become `"ddd"` and be removed.
 * The remaining string is `"aa"`.
 
-#### Code
+### Code
 ```cpp
 #include <iostream>
 #include <vector>
@@ -102,16 +102,12 @@ aa
 ps
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(N)`, where `N = s.length`.
 * Extra space: `O(N)`.
 
-### Implementation notes
+## Implementation notes
 The data structure `stk` you might need to solve this problem is a stack. But here are the reasons you had better use [`std::vector`](https://en.cppreference.com/w/cpp/container/vector):
 
 * `std::vector` also has methods [`push_back(value)`](https://en.cppreference.com/w/cpp/container/vector/push_back) and [`pop_back()`](https://en.cppreference.com/w/cpp/container/vector/pop_back) like the ones in a stack.
 * On the other hand, it is faster for a vector to perform the string concatenation at the end.
-
-### References
-* [https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
-* [https://www.leetsolve.com/1209-remove-all-adjacent-duplicates-in-string-ii](https://www.leetsolve.com/1209-remove-all-adjacent-duplicates-in-string-ii)

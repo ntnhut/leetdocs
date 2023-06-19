@@ -2,8 +2,6 @@
 Hash Table
 ==========
 
-In this chapter
-
 
 .. toctree::
     :glob:

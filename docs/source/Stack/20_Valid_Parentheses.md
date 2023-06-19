@@ -1,4 +1,4 @@
-# 20. Valid Parentheses
+# Valid Parentheses
 
 ## Problem statement
 

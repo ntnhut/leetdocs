@@ -1,7 +1,6 @@
-## 165. Compare Version Numbers
-Tag: medium, string
+# Compare Version Numbers
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/compare-version-numbers/)
 
 Given two version numbers, `version1` and `version2`, compare them.
 
@@ -18,35 +17,35 @@ Return the following:
 * Otherwise, return `0`.
  
 
-#### Example 1
+### Example 1
 ```plain
 Input: version1 = "1.01", version2 = "1.001"
 Output: 0
 Explanation: Ignoring leading zeroes, both "01" and "001" represent the same integer "1".
 ```
 
-#### Example 2
+### Example 2
 ```plain
 Input: version1 = "1.0", version2 = "1.0.0"
 Output: 0
 Explanation: version1 does not specify revision 2, which means it is treated as "0".
 ```
 
-#### Example 3
+### Example 3
 ```plain
 Input: version1 = "0.1", version2 = "1.1"
 Output: -1
 Explanation: version1's revision 0 is "0", while version2's revision 0 is "1". 0 < 1, so version1 < version2.
 ``` 
 
-#### Constraints
+### Constraints
 
 * `1 <= version1.length, version2.length <= 500`.
 * `version1` and `version2` only contain digits and `'.'`.
 * `version1` and `version2` are valid version numbers.
 * All the given revisions in `version1` and `version2` can be stored in a 32-bit integer.
 
-### Solution
+## Solution
 Each version can be considered as an array of revisions.
 
 ```plain
@@ -62,7 +61,7 @@ The number of revisions between the versions might not be equal (like in Example
 
 If all revisions of the shorter version are equal to the corresponding revisions of the longer one, the version having extra revisions and there exists a non-zero revision among them is the bigger one. Otherwise, the two versions are equal.
 
-#### Code
+### Code
 
 ```cpp
 #include <iostream>
@@ -122,17 +121,12 @@ Output:
 -1
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(N)` where `N = max(version1.length, version2.length)`.
 * Extra space: `O(N)`.
 
-### C++ Notes
+## C++ Notes
 * [`std::stoi(string)`](https://en.cppreference.com/w/cpp/string/basic_string/stol) is used to convert a `string` to an `int`. It ignores the leading zeros for you.
 * [`std::accumulate(firstIter, lastIter, initValue)`](https://en.cppreference.com/w/cpp/algorithm/accumulate) is used to compute the sum of a container. 
 
-***
-
-*Thanks for reading. Feel free to share your thought about my content.*
-
-*What is your approach? The problem was picked from [leetcode.com](https://leetcode.com/problems/compare-version-numbers/). You can submit your solution in any programming language and check the performance.*
 

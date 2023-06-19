@@ -1,7 +1,6 @@
-### 785. Is Graph Bipartite?
-Tag: DFS, graph, medium, stack
+# Is Graph Bipartite?
 
-### Problem statement
+## [Problem statement](https://leetcode.com/problems/is-graph-bipartite/)
 
 There is an undirected graph with `n` nodes, where each node is numbered between `0` and `n - 1`. You are given a 2D array `graph`, where `graph[u]` is an array of nodes that node `u` is adjacent to. More formally, for each `v` in `graph[u]`, there is an undirected edge between node `u` and node `v`. The graph has the following properties:
 
@@ -16,7 +15,7 @@ Return `true` if and only if it is bipartite.
 
  
 
-#### Example 1
+### Example 1
 
 ![Example 1](785_bi2.jpg)
 
@@ -27,7 +26,7 @@ Output: false
 Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other.
 ```
 
-#### Example 2
+### Example 2
 
 ![Example 2](785_bi1.jpg)
 
@@ -37,7 +36,7 @@ Output: true
 Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}.
 ``` 
 
-#### Constraints
+### Constraints
 
 * `graph.length == n`.
 * `1 <= n <= 100`.
@@ -47,7 +46,7 @@ Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}.
 * All the values of `graph[u]` are unique.
 * If `graph[u]` contains `v`, then `graph[v]` contains `u`.
 
-### Solution: Coloring the nodes by Depth First Search
+## Solution: Coloring the nodes by Depth First Search
 
 You could color the nodes in set A with one color and those in B with another color. Then two ends of every edge have different colors.
 
@@ -55,7 +54,7 @@ Now you can use the [DFS algorithm](https://en.wikipedia.org/wiki/Depth-first_se
 
 During the traversal, if there is an edge having the same color at two ends then return `false`.
 
-#### Code
+### Code
 ```cpp
 #include <vector>
 #include <iostream>
@@ -96,13 +95,11 @@ Output:
 1
 ```
 
-#### Complexity
+### Complexity
 * Runtime: `O(n)`, where `n = graph.length`.
 * Extra space: `O(n)`.
 
-### Implementation note
+## Implementation note
 - This is the non-recursive implementation of DFS algorithm where you could use the stack data structure to avoid the recursion.
 - The stack's methods needed in the DFS algorithm are only `push` and `pop`. There are similar ones in [`std::vector`](https://en.cppreference.com/w/cpp/container/vector), which are [`push_back`](https://en.cppreference.com/w/cpp/container/vector/push_back) and [`pop_back`](https://en.cppreference.com/w/cpp/container/vector/pop_back) which you could use well.
 
-### References
-* [https://leetcode.com/problems/is-graph-bipartite/](https://leetcode.com/problems/is-graph-bipartite/)

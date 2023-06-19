@@ -1,4 +1,4 @@
-# 1679. Max Number of K-Sum Pairs
+# Max Number of K-Sum Pairs
 
 ## Problem statement
 

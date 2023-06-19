@@ -2,8 +2,6 @@
 Linked List
 ===========
 
-In this chapter
-
 
 .. toctree::
     :glob:
