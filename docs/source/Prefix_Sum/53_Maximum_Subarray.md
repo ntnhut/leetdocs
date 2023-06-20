@@ -1,6 +1,7 @@
 # Maximum Subarray
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/maximum-subarray/)
+
 Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return *its sum*.
 
 A **subarray** is a **contiguous** part of an array.
@@ -67,7 +68,3 @@ Output:
 ### Complexity
 * Runtime `O(N)`, where `N = nums.length`.
 * Memory `O(1)`.
-
-## References
-* [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/)
-* [https://www.leetsolve.com/53-maximum-subarray](https://www.leetsolve.com/53-maximum-subarray)

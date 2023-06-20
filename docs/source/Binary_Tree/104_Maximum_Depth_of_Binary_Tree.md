@@ -1,6 +1,6 @@
 # Maximum Depth of Binary Tree
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 Given the `root` of a binary tree, return its maximum depth.
 
@@ -71,6 +71,4 @@ Output:
 * Runtime: `O(N)`, where `N` is the number of nodes.
 * Extra space: `O(N)`.
 
-## References
-* [https://leetcode.com/problems/maximum-depth-of-binary-tree/](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-* [https://www.leetsolve.com/104-maximum-depth-of-binary-tree](https://www.leetsolve.com/104-maximum-depth-of-binary-tree)
+

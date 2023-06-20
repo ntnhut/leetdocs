@@ -1,6 +1,6 @@
 # Valid Parentheses
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/valid-parentheses/)
 
 Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
@@ -82,6 +82,3 @@ Output:
 * Runtime: `O(N)`, where `N = s.length`.
 * Extra space: `O(N/2)`.
 
-## References
-* [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
-* [https://www.leetsolve.com/20-valid-parentheses](https://www.leetsolve.com/20-valid-parentheses)

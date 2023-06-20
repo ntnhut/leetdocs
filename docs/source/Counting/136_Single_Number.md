@@ -1,6 +1,7 @@
 # Single Number
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/single-number/)
+
 Given a non-empty array of integers `nums`, every element appears twice except for one. Find that single one.
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
@@ -106,7 +107,3 @@ Output:
 ### Complexity
 * Runtime: `O(N)`, where `N = nums.length`.
 * Extra space: `O(1)`.
-
-## References
-* [https://leetcode.com/problems/single-number/](https://leetcode.com/problems/single-number/)
-* [https://www.leetsolve.com/136-single-number](https://www.leetsolve.com/136-single-number)

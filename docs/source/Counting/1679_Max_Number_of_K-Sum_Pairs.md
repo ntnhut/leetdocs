@@ -1,6 +1,7 @@
 # Max Number of K-Sum Pairs
 
-## Problem statement
+## [Problem statement](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
+
 
 You are given an integer array `nums` and an integer `k`.
 
@@ -87,7 +88,3 @@ Output:
 ### Complexity
 * Runtime: `O(N)`, where `N = nums.length`.
 * Extra space: `O(N)`.
-
-## References
-* [https://leetcode.com/problems/max-number-of-k-sum-pairs/](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
-* [https://www.leetsolve.com/1679-max-number-of-k-sum-pairs](https://www.leetsolve.com/1679-max-number-of-k-sum-pairs)
