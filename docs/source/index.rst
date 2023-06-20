@@ -4,15 +4,23 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :name: masterdoc
+   :caption: Data Structures
 
-   
    Array/index
    Linked_List/index
    Hash_Table/index
-   Sorting/index
-   Dynamic_Programming/index
    String/index
+   Stack/index
+   Priority_Queue/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Algorithms
+
+   Sorting/index
+   Dynamic_Programming/index   
+   Counting/index
+   Prefix_Sum/index
    Two_Pointers/index
    Mathematics/index
    
