@@ -58,3 +58,4 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 }
+latex_show_urls = 'footnote'
