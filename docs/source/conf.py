@@ -28,13 +28,14 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+master_doc = 'index'
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
 html_logo = "img/logo-transparent-transformed.png"
-
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+html_theme_options = {
+    'logo_only': True,
+}
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -57,5 +58,16 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+    'sphinxsetup': 'hmargin={1.5cm,1.5cm}',
+    'tableofcontents': '\\pdfbookmark[0]{Contents}{toc}',
 }
 latex_show_urls = 'footnote'
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, 'leetsolve.tex', 'The Problem Solver Guide To Coding',
+     'Nhut Nguyen, Ph. D.', 'manual'),
+]
+
