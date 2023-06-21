@@ -35,6 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = "img/logo-transparent-transformed.png"
 html_theme_options = {
     'logo_only': True,
+    'nosidebar': True,
 }
 
 source_suffix = {
