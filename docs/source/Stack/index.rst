@@ -1,5 +1,5 @@
 =========
-Recursive
+Stack
 =========
 
 .. toctree::

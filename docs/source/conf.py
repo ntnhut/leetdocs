@@ -57,9 +57,7 @@ latex_elements = {
 
     # Latex figure (float) alignment
     #
-    # 'figure_align': 'htbp',
-    'sphinxsetup': 'hmargin={1.5cm,1.5cm}',
-    'tableofcontents': '\\pdfbookmark[0]{Contents}{toc}',
+    # 'figure_align': 'htbp',        
 }
 latex_show_urls = 'footnote'
 
