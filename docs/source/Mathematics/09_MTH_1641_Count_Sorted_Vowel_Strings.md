@@ -125,12 +125,14 @@ s = "aa..a|ee..e|ii..i|oo..o|uu..u",
 ```
 the problem becomes counting how many ways of putting those 4 separators `'|'` to form a string of length `n + 4`. 
 
-![The formula of the binomial coefficient](09_MTH_1641_binomialcoef.png)
 
-In combinatorics, the solution is `(n + 4 choose 4)`, where `(n choose k)` is the [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient).
+In combinatorics, the solution is `(n + 4 choose 4)`, where `(n choose k)` is the [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient):
 
+![The formula of the binomial coefficient](09_MTH_1641_binomialcoef.jpg)
 
-![The formula of the final solution](09_MTH_1641_solution.png)
+The final number of strings is
+
+![The formula of the final solution](09_MTH_1641_solution.jpg)
 
 
 ### Code
