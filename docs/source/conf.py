@@ -31,11 +31,12 @@ templates_path = ['_templates']
 master_doc = 'index'
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
-html_logo = "img/logo-transparent-transformed.png"
+html_theme = "furo"
+html_logo = "img/logo_name.svg"
 html_theme_options = {
-    'logo_only': True,
-    'nosidebar': True,
+    # 'logo_only': True,
+    "sidebar_hide_name": True,
+    # 'nosidebar': True,
 }
 
 source_suffix = {
