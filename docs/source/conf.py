@@ -55,7 +55,7 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': r'\addto\captionsenglish{\renewcommand{\contentsname}{Contents}}',
 
     # Latex figure (float) alignment
     #
@@ -68,6 +68,8 @@ latex_show_urls = 'footnote'
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'leetsolve.tex', 'The Problem Solver Guide To Coding',
-     'Nhut Nguyen, Ph. D.', 'manual'),
+     'Nhut Nguyen, Ph. D.', 'book'),
 ]
-
+latex_docclass = {
+   'book': 'book',
+}
