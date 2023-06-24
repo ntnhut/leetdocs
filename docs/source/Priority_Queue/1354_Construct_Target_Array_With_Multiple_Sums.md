@@ -11,7 +11,7 @@ Return `true` if it is possible to construct the `target` array from `arr`, othe
  
 
 ### Example 1
-```plain
+```text
 Input: target = [9,3,5]
 Output: true
 Explanation: Start with arr = [1, 1, 1] 
@@ -22,14 +22,14 @@ Explanation: Start with arr = [1, 1, 1]
 ```
 
 ### Example 2
-```plain
+```text
 Input: target = [1,1,1,2]
 Output: false
 Explanation: Impossible to create target array from [1,1,1,1].
 ```
 
 ### Example 3
-```plain
+```text
 Input: target = [8,5]
 Output: true
 ``` 
@@ -98,7 +98,7 @@ int main() {
     cout << isPossible(target) << endl;
 }
 ```
-```plain
+```text
 Output:
 1
 0
@@ -155,7 +155,7 @@ int main() {
     cout << isPossible(target) << endl;
 }
 ```
-```plain
+```text
 Output:
 1
 0

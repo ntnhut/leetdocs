@@ -20,7 +20,7 @@ Return `true` if and only if it is bipartite.
 ![Example 1](785_bi2.jpg)
 
 
-```plain
+```text
 Input: graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
 Output: false
 Explanation: There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other.
@@ -30,7 +30,7 @@ Explanation: There is no way to partition the nodes into two independent sets su
 
 ![Example 2](785_bi1.jpg)
 
-```plain
+```text
 Input: graph = [[1,3],[0,2],[1,3],[0,2]]
 Output: true
 Explanation: We can partition the nodes into two sets: {0, 2} and {1, 3}.
@@ -89,7 +89,7 @@ int main() {
     cout << isBipartite(graph) << endl;
 }
 ```
-```plain
+```text
 Output:
 0
 1

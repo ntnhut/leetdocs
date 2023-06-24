@@ -16,7 +16,7 @@ Return the smallest possible weight of the left stone. If there are no stones le
 
 ### Example 1
 
-```plaintext
+```text
 Input: stones = [2,7,4,1,8,1]
 Output: 1
 Explanation: 
@@ -28,7 +28,7 @@ we combine 1 and 1 to get 0, so the array converts to [1] then that's the value 
 
 ### Example 2
 
-```plaintext
+```text
 Input: stones = [1]
 Output: 1
 ```
@@ -71,7 +71,7 @@ int main() {
 }
 ```
 
-```plaintext
+```text
 Output:
 1
 1

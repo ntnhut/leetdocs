@@ -9,14 +9,14 @@ The interval `[a, b)` is covered by the interval `[c, d)` if and only if `c <= a
 Return the number of remaining intervals.
 
 ### Example 1
-```plain
+```text
 Input: intervals = [[1,4],[3,6],[2,8]]
 Output: 2
 Explanation: Interval [3,6] is covered by [2,8], therefore it is removed.
 ```
 
 ### Example 2
-```plain
+```text
 Input: intervals = [[1,4],[2,3]]
 Output: 1
 ``` 
@@ -75,7 +75,7 @@ int main() {
     cout << removeCoveredIntervals(intervals) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 1
@@ -136,7 +136,7 @@ int main() {
     cout << removeCoveredIntervals(intervals) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 1

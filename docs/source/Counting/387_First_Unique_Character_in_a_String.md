@@ -5,19 +5,19 @@
 Given a string `s`, find the first non-repeating character in it and return its index. If it does not exist, return `-1`.
 
 ### Example 1
-```plain
+```text
 Input: s = "leetcode"
 Output: 0
 ```
 
 ### Example 2
-```plain
+```text
 Input: s = "loveleetcode"
 Output: 2
 ```
 
 ### Example 3
-```plain
+```text
 Input: s = "aabb"
 Output: -1
 ``` 
@@ -52,7 +52,7 @@ int main() {
     cout << firstUniqChar("aabb") << endl;
 }
 ```
-```plain
+```text
 Output:
 0
 2
@@ -88,7 +88,7 @@ int main() {
     cout << firstUniqChar("aabb") << endl;
 }
 ```
-```plain
+```text
 Output:
 0
 2

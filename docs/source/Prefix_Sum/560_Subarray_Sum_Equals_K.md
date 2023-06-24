@@ -4,12 +4,12 @@
 Given an array of integers `nums` and an integer `k`, return the total number of continuous subarrays whose sum equals to `k`.
 
 ### Example 1
-```plain
+```text
 Input: nums = [1,1,1], k = 2
 Output: 2
 ```
 ### Example 2
-```plain
+```text
 Input: nums = [1,2,3], k = 3
 Output: 2
 ``` 
@@ -57,7 +57,7 @@ int main() {
     cout << subarraySum(nums, 0) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 2
@@ -111,7 +111,7 @@ int main() {
     cout << subarraySum(nums, 0) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 2
@@ -161,7 +161,7 @@ int main() {
     cout << subarraySum(nums, 0) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 2

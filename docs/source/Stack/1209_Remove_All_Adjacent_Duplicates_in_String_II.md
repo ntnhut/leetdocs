@@ -10,14 +10,14 @@ We repeatedly make `k` duplicate removals on `s` until we no longer can.
 Return the final string after all such duplicate removals have been made. It is guaranteed that the answer is unique.
 
 ### Example 1
-```plain
+```text
 Input: s = "abcd", k = 2
 Output: "abcd"
 Explanation: There is nothing to delete.
 ```
 
 ### Example 2
-```plain
+```text
 Input: s = "deeedbbcccbdaa", k = 3
 Output: "aa"
 Explanation: 
@@ -27,7 +27,7 @@ Finally delete "ddd", get "aa"
 ```
 
 ### Example 3
-```plain
+```text
 Input: s = "pbbcggttciiippooaais", k = 2
 Output: "ps"
 ``` 
@@ -95,7 +95,7 @@ int main() {
     cout << removeDuplicates("pbbcggttciiippooaais", 2) << endl;
 }
 ```
-```plain
+```text
 Output:
 abcd
 aa

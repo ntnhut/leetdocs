@@ -9,21 +9,21 @@ According to the [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/
 
 ### Example 1
 ![The tree in Example 1](binarysearchtree_improved.png)
-```plain
+```text
 Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 Output: 6
 Explanation: The LCA of nodes 2 and 8 is 6.
 ```
 ### Example 2
 ![The tree in Example 2](binarysearchtree_improved.png)
-```plain
+```text
 Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
 Output: 2
 Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
 ```
 
 ### Example 3
-```plain
+```text
 Input: root = [2,1], p = 2, q = 1
 Output: 2
 ``` 
@@ -87,7 +87,7 @@ int main() {
     cout << lowestCommonAncestor(&two, &two, &zero)->val << endl;
 }
 ```
-```plain
+```text
 Output:
 6
 2

@@ -11,7 +11,7 @@ Implement `KthLargest` class:
  
 
 ### Example 1
-```plain
+```text
 Input
 ["KthLargest", "add", "add", "add", "add", "add"]
 [[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
@@ -81,7 +81,7 @@ int main() {
     cout << a.add(4) << endl;
 }
 ```
-```plain
+```text
 Output:
 4
 5
@@ -136,7 +136,7 @@ int main() {
     cout << a.add(4) << endl;
 }
 ```
-```plain
+```text
 Output:
 4
 5

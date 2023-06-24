@@ -7,20 +7,20 @@ Given an integer array `nums`, find the contiguous subarray (containing at least
 A **subarray** is a **contiguous** part of an array.
 
 ### Example 1
-```plain
+```text
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
 Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 ```
 
 ### Example 2
-```plain
+```text
 Input: nums = [1]
 Output: 1
 ```
 
 ### Example 3
-```plain
+```text
 Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
@@ -58,7 +58,7 @@ int main() {
     cout << maxSubArray(nums) << endl;
 }
 ```
-```plain
+```text
 Output:
 6
 1

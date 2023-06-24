@@ -8,7 +8,7 @@ Coding challenges can take many forms. They could be programming puzzles, riddle
 
 As you work through the coding challenges in this book, you'll learn new skills, improve your problem-solving abilities, and develop your confidence as a programmer. 
 
-The challenges in this book are picked from leetcode.com. I keep the challenges' titles unchanged so you can easily find it there. I chose the ones that are not too difficult and do not require much effort and determination to solve. Each challenge comes with a detailed solution, explaining the logic behind the solution and how to implement it in C++. You can find most of this book's content on my blog [leetsolve.com](https://leetsolve.com). This book consists of 50 selected challenges compiled in an easy way of reading - a book.
+The challenges in this book are picked from leetcode.com. I keep the challenges' titles unchanged so you can easily find it there. I chose the ones that are not too difficult and do not require much effort and determination to solve. Each challenge comes with a detailed solution, explaining the logic behind the solution and how to implement it in C++. You can find most of this book's content on my blog [leetsolve.com](https://leetsolve.com).
 
 ## Leetcode
 
@@ -53,4 +53,4 @@ Finally, readable code can save time and money. When code is easy to understand,
 In conclusion, readable code is an essential aspect of programming that ensures that code is accessible, error-free, and efficient. By focusing on readability when designing and implementing code, programmers can improve the quality and reliability of their code, leading to a better overall product.
 
 
-I hope this book is an enjoyable and educational experience that will challenge and inspire you. Whether you want to enhance your skills, prepare for a technical interview, or just have fun, this book has something for you. So, get ready to put your coding skills to the test and embark on a challenging and rewarding journey through the world of coding challenges!
+*I hope this book is an enjoyable and educational experience that will challenge and inspire you. Whether you want to enhance your skills, prepare for a technical interview, or just have fun, this book has something for you. So, get ready to put your coding skills to the test and embark on a challenging and rewarding journey through the world of coding challenges!*

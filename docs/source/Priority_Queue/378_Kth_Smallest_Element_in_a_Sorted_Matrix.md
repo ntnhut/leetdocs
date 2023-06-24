@@ -10,14 +10,14 @@ You must find a solution with a memory complexity better than `O(n^2)`.
  
 
 ### Example 1
-```plain
+```text
 Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
 Output: 13
 Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15], and the 8th smallest number is 13
 ```
 
 ### Example 2
-```plain
+```text
 Input: matrix = [[-5]], k = 1
 Output: -5
 ``` 
@@ -62,7 +62,7 @@ int main() {
     cout << kthSmallest(matrix, 1) << endl;
 }
 ```
-```plain
+```text
 Output:
 13
 -5
@@ -103,7 +103,7 @@ int main() {
     cout << kthSmallest(matrix, 1) << endl;
 }
 ```
-```plain
+```text
 Output:
 13
 -5
@@ -152,7 +152,7 @@ int main() {
     cout << kthSmallest(matrix, 1) << endl;
 }
 ```
-```plain
+```text
 Output:
 13
 -5

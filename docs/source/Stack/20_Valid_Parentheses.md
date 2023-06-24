@@ -11,18 +11,18 @@ An input string is valid if:
  
 
 ### Example 1
-```plain
+```text
 Input: s = "()"
 Output: true
 ```
 ### Example 2
-```plain
+```text
 Input: s = "()[]{}"
 Output: true
 ```
 
 ### Example 3
-```plain
+```text
 Input: s = "(]"
 Output: false
 ``` 
@@ -70,7 +70,7 @@ int main() {
     cout << isValid("([)]") << endl;
 }
 ```
-```plain
+```text
 Output:
 1
 1

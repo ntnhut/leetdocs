@@ -7,7 +7,7 @@ copyright = '2023, Nhut Nguyen'
 author = 'Nhut Nguyen'
 
 release = '0.2'
-version = '0.2.0'
+version = '0.2.1'
 
 # -- General configuration
 

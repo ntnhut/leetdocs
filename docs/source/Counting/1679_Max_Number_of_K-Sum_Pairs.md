@@ -12,7 +12,7 @@ Return the maximum number of operations you can perform on the array.
  
 
 ### Example 1
-```plain
+```text
 Input: nums = [1,2,3,4], k = 5
 Output: 2
 Explanation: Starting with nums = [1,2,3,4]:
@@ -22,7 +22,7 @@ There are no more pairs that sum up to 5, hence a total of 2 operations.
 ```
 
 ### Example 2
-```plain
+```text
 Input: nums = [3,1,3,4,3], k = 6
 Output: 1
 Explanation: Starting with nums = [3,1,3,4,3]:
@@ -79,7 +79,7 @@ int main() {
     cout << maxOperations(nums, 6) << endl;
 }
 ```
-```plain
+```text
 Output:
 2
 1

@@ -7,7 +7,7 @@ The graph is given as follows: `graph[i]` is a list of all nodes you can visit f
 
 ### Example 1
 ![Example 1](797_all_1.jpg)
-```plain
+```text
 Input: graph = [[1,2],[3],[3],[]]
 Output: [[0,1,3],[0,2,3]]
 Explanation: There are two paths: `0 -> 1 -> 3` and `0 -> 2 -> 3`.
@@ -15,25 +15,25 @@ Explanation: There are two paths: `0 -> 1 -> 3` and `0 -> 2 -> 3`.
 
 ### Example 2
 ![Example 2](797_all_2.jpg)
-```plain
+```text
 Input: graph = [[4,3,1],[3,2,4],[3],[4],[]]
 Output: [[0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4]]
 ```
 
 ### Example 3
-```plain
+```text
 Input: graph = [[1],[]]
 Output: [[0,1]]
 ```
 
 ### Example 4
-```plain
+```text
 Input: graph = [[1,2,3],[2],[3],[]]
 Output: [[0,1,2,3],[0,2,3],[0,3]]
 ```
 
 ### Example 5
-```plain
+```text
 Input: graph = [[1,3],[2],[3],[]]
 Output: [[0,1,2,3],[0,3]]
 ```
@@ -94,7 +94,7 @@ int main() {
     printPaths(paths); 
 }
 ```
-```plain
+```text
 Output:
 [[0,1,3,],[0,2,3,],]
 [[0,4,],[0,3,4,],[0,1,3,4,],[0,1,2,3,4,],[0,1,4,],]

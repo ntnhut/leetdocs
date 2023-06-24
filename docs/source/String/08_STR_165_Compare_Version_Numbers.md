@@ -18,21 +18,21 @@ Return the following:
  
 
 ### Example 1
-```plain
+```text
 Input: version1 = "1.01", version2 = "1.001"
 Output: 0
 Explanation: Ignoring leading zeroes, both "01" and "001" represent the same integer "1".
 ```
 
 ### Example 2
-```plain
+```text
 Input: version1 = "1.0", version2 = "1.0.0"
 Output: 0
 Explanation: version1 does not specify revision 2, which means it is treated as "0".
 ```
 
 ### Example 3
-```plain
+```text
 Input: version1 = "0.1", version2 = "1.1"
 Output: -1
 Explanation: version1's revision 0 is "0", while version2's revision 0 is "1". 0 < 1, so version1 < version2.
@@ -48,7 +48,7 @@ Explanation: version1's revision 0 is "0", while version2's revision 0 is "1". 0
 ## Solution
 Each version can be considered as an array of revisions.
 
-```plain
+```text
 version = revisions[0].revisions[1].revisions[2]....
 ```
 The problem is to compare each `revisions[i]` between two versions.
@@ -114,7 +114,7 @@ int main() {
 }
 ```
 
-```plain
+```text
 Output:
 0
 0

@@ -6,25 +6,25 @@ Given an integer `n`, return the least number of perfect square numbers that sum
 A **perfect square** is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, `1`, `4`, `9`, and `16` are perfect squares while `3` and `11` are not.
 
 ### Example 1
-```plain
+```text
 Input: n = 9
 Output: 1
 Explanation: 9 is already a perfect square.
 ```
 ### Example 2
-```plain
+```text
 Input: n = 13
 Output: 2
 Explanation: 13 = 4 + 9.
 ```
 ### Example 3
-```plain
+```text
 Input: n = 7
 Output: 4
 Explanation: 7 = 4 + 1 + 1 + 1.
 ```
 ### Example 4
-```plain
+```text
 Input: n = 12
 Output: 3
 Explanation: 12 = 4 + 4 + 4.
@@ -84,7 +84,7 @@ int main() {
     cout << numSquares(13) << endl;
 }
 ```
-```plain
+```text
 Output:
 3
 2
@@ -113,7 +113,7 @@ Here are the cases.
 1. If `n` is a perfect square, `numSquares(n) = 1`.
 2. There is another theorem, [Legendre's Three-Square Theorem](https://en.wikipedia.org/wiki/Legendre%27s_three-square_theorem), which states that
 `numSquares(n)` cannot be 1, 2, or 3 if `n` can be expressed as
-    ```plain
+    ```text
     n = 4^a(8*b + 7),
     ```
     where `a, b` are nonnegative integers. 
@@ -156,7 +156,7 @@ int main() {
     cout << numSquares(13) << endl;
 }
 ```
-```plain
+```text
 Output:
 3
 2
@@ -171,13 +171,13 @@ Lagrange's Four-Square Theorem and Legendre's Three-Square Theorem are so powerf
 Instead of looping over `sqrt(n)` in the final `for` loop, we will prove that this loop over `sqrt(m)` is enough. That will improve runtime a lot since `m` is much less than `n`.
 
 Let `m` be the reduced value of `n` after the Legendre's `while` loop. It satisfies
-```plain
+```text
 n = 4^a * m.
 ```
 We will prove that `numSquares(n) = numSquares(m)`.
 
 In fact, if `m` is written as `m = x^2 + y^2 + z^2`, where `x, y, z` are nonnegative integers. Then
-```plain
+```text
 n = 4^a * m = (2^a)^2 * m = (2^a * x)^2 + (2^a * y)^2 + (2^a * z)^2.
 ```
 In other words, `numSquares(n) = numSquares(m)`.
@@ -218,7 +218,7 @@ int main() {
     cout << numSquares(13) << endl;
 }
 ```
-```plain
+```text
 Output:
 3
 2

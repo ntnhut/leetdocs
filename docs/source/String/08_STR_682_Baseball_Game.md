@@ -15,7 +15,7 @@ Return the sum of all the scores on the record.
  
 
 ### Example 1
-```plain
+```text
 Input: ops = ["5","2","C","D","+"]
 Output: 30
 Explanation:
@@ -28,7 +28,7 @@ The total sum is 5 + 10 + 15 = 30.
 ```
 
 ### Example 2
-```plain
+```text
 Input: ops = ["5","-2","4","C","D","9","+","+"]
 Output: 27
 Explanation:
@@ -44,7 +44,7 @@ The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.
 ```
 
 ### Example 3
-```plain
+```text
 Input: ops = ["1"]
 Output: 1
 ``` 
@@ -87,7 +87,7 @@ int main() {
     cout << calPoints(ops) << endl;
 }
 ```
-```plain
+```text
 Output:
 30
 27
