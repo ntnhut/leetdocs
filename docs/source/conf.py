@@ -6,8 +6,8 @@ project = 'LeetSolve'
 copyright = '2023, Nhut Nguyen'
 author = 'Nhut Nguyen'
 
-release = '0.4'
-version = '0.4.0'
+release = '0.5'
+version = '0.5.0'
 
 # -- General configuration
 
@@ -47,7 +47,7 @@ source_suffix = {
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'b5paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #

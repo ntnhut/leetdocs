@@ -2,7 +2,10 @@
 About
 =====
 
-   **LeetSolve - Improving Your Programming Skills By Solving Coding Challenges.**
+.. admonition:: LeetSolve
+
+   Improving Your Programming Skills By Solving Coding Challenges.
+
 
 Hi! I'm a passionate programmer who loves to solve coding challenges in my free time. In this book, I share my **thought processes** and **solutions** to various **coding challenges** from `LeetCode <https://leetcode.com>`_.
 
@@ -12,7 +15,9 @@ The code is written in **C++**. I also provide **detailed explanations** of my *
 
 If you want to **improve your problem-solving skills and programming techniques**, this book is for you! 
 
-   *Let's learn and grow together as a community of passionate programmers!*
+.. hint::
+
+   Let's learn and grow together as a community of passionate programmers!
 
 
 Nhut Nguyen, Ph.D.

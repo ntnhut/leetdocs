@@ -5,9 +5,9 @@ Welcome to LeetSolve!
 
 .. toctree::
    :maxdepth: 2
-   :numbered: false
 
    about
+
 
 .. toctree::
    :maxdepth: 2
