@@ -1,8 +1,8 @@
 .. include:: welcome.rst
 
 .. toctree::
+   :maxdepth: 2
    :hidden:
-   :numbered: false
 
    welcome
 
