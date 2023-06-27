@@ -1,8 +1,8 @@
-=====================
-Welcome to LeetSolve!
-=====================
+=====
+About
+=====
 
-   *Improving Your Programming Skills By Solving Coding Challenges*
+   **LeetSolve - Improving Your Programming Skills By Solving Coding Challenges.**
 
 Hi! I'm a passionate programmer who loves to solve coding challenges in my free time. In this book, I share my **thought processes** and **solutions** to various **coding challenges** from `LeetCode <https://leetcode.com>`_.
 

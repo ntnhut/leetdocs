@@ -1,14 +1,15 @@
-.. include:: welcome.rst
+=====================
+Welcome to LeetSolve!
+=====================
+
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
-   welcome
+   about
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Data Structures
 
    Array/index
@@ -22,7 +23,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Algorithms
 
    Sorting/index
